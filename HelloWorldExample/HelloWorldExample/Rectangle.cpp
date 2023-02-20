@@ -9,6 +9,6 @@ Rectangle::~Rectangle() {
 	//
 }
 
-float Rectangle::getArea{
+float Rectangle::getArea() const {
 	return(width * height);
 }
